@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node app",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
@@ -12,7 +12,7 @@
     "jade": "*",
     "stylus": "*",
     "mongodb": ">= 0.9.6-7",
-    "snyk": "^1.563.0"
+    "@snyk/protect": "latest"
   },
   "snyk": true
 }
